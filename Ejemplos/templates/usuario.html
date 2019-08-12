@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+<body>
+    <h4>Hola Usuario</h4>
+
+    <!-- doble llave para imprimir variables -->
+    <h4>{{ nombre }}</h4>
+    <h4>{{ edad }}</h4>
+        
+    <!-- una llave y porcentaje para condicionales if -->
+    {% if edad>18 %}
+     <p> es mayor de edad</p>
+    {% endif %} 
+
+    {% for item in lista %}
+      <p>{{ item }}</p>
+    {% endfor %}
+
+</body>
+</html>
